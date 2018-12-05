@@ -37,10 +37,10 @@ Is char values summed % 599 a good hash function for strings? Why or why not?
 Take a look at Java's HashMap class and how it produces hashed values. (You may have to look at other classes to find the actual mathematical function! Follow the trail of breadcrumbs...)
 
 ## Challenge four: (code)
-Implement a HashTable for Strings using arrays (caution python users) and a hash function you choose/design.
+Implement a HashTable1 for Strings using arrays (caution python users) and a hash function you choose/design.
 ```java
 //initializes an array of size capacity
-public HashTable(int capacity)
+public HashTable1(int capacity)
 
 //put hashes the key to an index in your array, and places the value there. Fails if there are collisions/repeat keys.  
 public boolean put(String key, String value)
@@ -54,6 +54,6 @@ private int hashCode(String key)
 Write a driver to test all methods.
 
 ## Extra credit:+2 (code)
-Design your own hash function (don't copy/pasta from another site) for your HashTable, and then write a driver that inputs random key value pairs and then analyses the 'quality' of the hash function (the number of collisions, uniformity of distribution or other useful metric).
+Design your own hash function (don't copy/pasta from another site) for your HashTable1, and then write a driver that inputs random key value pairs and then analyses the 'quality' of the hash function (the number of collisions, uniformity of distribution or other useful metric).
 
 
